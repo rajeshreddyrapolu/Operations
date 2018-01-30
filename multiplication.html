@@ -1,0 +1,23 @@
+<html>
+  <head>
+        <title>1.2</title>
+        <script language="javascript">
+                
+				function mulNumbers()
+                {
+                        var val1 = parseInt(document.getElementById("value5").value);
+                        var val2 = parseInt(document.getElementById("value6").value);
+                        var ansD = document.getElementById("answer2");
+                        ansD.value = val1 * val2;
+                }
+        </script>
+  </head>
+  <body>
+		<h1> Multiplication </h1>
+        value1 = <input type="text" id="value5" name="value5" value="1"/>
+        value2 = <input type="text" id="value6" name="value6" value="2"/>
+        <input type="button" name="Sumbit" value="Click here" onclick="javascript:mulNumbers()"/>
+        Answer = <input type="text" id="answer2" name="answer2" value=""/>
+		
+  </body>
+</html>
